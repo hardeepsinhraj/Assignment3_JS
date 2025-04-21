@@ -1,4 +1,4 @@
-
+/* Style for body section */
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #83a4d4, #b6fbff);
@@ -11,8 +11,8 @@
     min-height: 100vh;
     padding-top: 60px;
   }
-
-  .weather-container {
+/* style the weather information */
+ .weather-container {
     background-color: #ffffffcc;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -21,14 +21,14 @@
     max-width: 400px;
     width: 90%;
     text-align: center;
-  }
-
+  } 
+/* set the size and color of main heading */
   h1 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #1e3c72;
   }
-
+  /* Style for the text input */
   input[type="text"] {
     width: 80%;
     padding: 10px;
@@ -38,7 +38,7 @@
     margin-bottom: 15px;
    
   }
-
+  /* Style for the button */
   button {
     background-color: #1e3c72;
     color: white;
@@ -53,7 +53,7 @@
   button:hover {
     background-color: #16305c;
   }
-
+  /* Style for the weather result section */
   #weatherResult {
     margin-top: 20px;
     padding: 20px;
@@ -61,28 +61,22 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     background-image: url("weather.jpg");
-    
   }
-
+  /* Style for the weather result heading and paragraph */
   #weatherResult h2 {
     margin-bottom: 10px;
     color: #333;
     font-size: 2.5em;
     font-weight: bold;
-    
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     background-color: #5ab3c3;
-
-  }
-
+}
   #weatherResult p {
     margin: 6px 0;
     font-size: 1.50em;
-    
     line-height: 1.4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #5ac3a5;  
-
-}
+  }
 

@@ -5,13 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Weather Mape</title>
-  <link rel="stylesheet" href="styles.css" /> 
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />   <!-- Link to external CSS file -->
+  <script src="script.js" defer></script> <!-- Link to external JavaScript file -->
 </head>
 <body>
   <div class="container">
+    <!-- Header section with title and description -->
     <h1>Check Your City Weather: </h1>
     <input type="text" id="cityInput" placeholder="Enter city name" />
+    <!-- Button to trigger weather fetch function -->
     <button onclick="getWeather()">Get Weather</button>
     <div id="weatherResult"></div>
   </div>

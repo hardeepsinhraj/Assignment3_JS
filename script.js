@@ -19,7 +19,7 @@ function getWeather() {
     .then((response) => {
       // Check if the response is OK, otherwise throw an error
       if (!response.ok) {
-        throw new Error(`Error: ${response.status}`);
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
       return response.json(); // Parse the JSON response
     })
